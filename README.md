@@ -1,6 +1,6 @@
 # Apple-Home-Page
 
-![screenshot](images/part-1.PNG)
+![screenshot](images/screenshot-a.PNG)
 
 ### **Description:** 
 
