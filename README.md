@@ -22,7 +22,7 @@ Project based The Apple Home page, it shows a main section which contains Navbar
  HTML5, and CSS3.
  
  
-  [Live demo link](https://varun2323.github.io/NewYork-Times-Page/)
+  [Live demo link](https://varun2323.github.io/Apple-Home-Page/.)
  
  
 ### **Getting Started:**
