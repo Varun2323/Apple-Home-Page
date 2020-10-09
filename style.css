@@ -1,11 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  position: relative;
   background-image: url("images/apple-back.jpg");
   background-repeat: no-repeat;
   background-size: 1348px 1166px;
   background-position: 0 -700px;
+  overflow-x: hidden;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
@@ -86,11 +86,14 @@ body {
   color: white;
 }
 
+.footer-bottom {
+  display:flex;
+}
+
 .footer-bottom p {
   color: gray;
   font-size: 10px;
   line-height: 20px;
-  margin-left: 180px;
 }
 
 .paragraph .item-a p {
@@ -130,12 +133,17 @@ body {
 .footer-image-d img {
   display: block;
   width: 337px;
+  overflow: hidden;
+}
+
+.left-footer {
+  display: block;
+  margin-left: 150px;
 }
 
 .right-footer {
-  float: right;
-  margin-right: 205px;
-  margin-top: -50px;
+  display: block;
+  margin-left: 70px;
 }
 
 .footer-bottom a {
