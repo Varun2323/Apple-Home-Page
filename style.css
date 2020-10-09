@@ -142,12 +142,3 @@ body {
   text-decoration: none;
   color: #08c;
 }
-
-@media (min-width: 300px) and (max-width: 1200px) {
-  body {
-    width: 1348px;
-  }
-}
-
-
-
