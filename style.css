@@ -4,15 +4,16 @@ body {
   background-image: url("images/apple-back.jpg");
   background-repeat: no-repeat;
   background-size: 1348px 1166px;
-  background-position: 0 -700px;
+  background-position: center -700px;
   overflow-x: hidden;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .nav-flex-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
-  margin-left: 160px;
   margin-top: 70px;
 }
 
@@ -51,6 +52,7 @@ body {
 .nav-flex-container .logo-a {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  margin-left: 160px;
 }
 
 .nav-flex-container .btn-list {
@@ -75,7 +77,9 @@ body {
 
 .paragraph .item-a,
 .paragraph .item-b,
-.paragraph .item-c {
+.paragraph .item-c,
+.bottom-footer-image
+{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -88,6 +92,8 @@ body {
 
 .footer-bottom {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-bottom p {
@@ -124,6 +130,8 @@ body {
 
 .bottom-footer-image {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
 }
 
@@ -138,12 +146,12 @@ body {
 
 .left-footer {
   display: block;
-  margin-left: 150px;
+  margin-left: -80px;
 }
 
 .right-footer {
   display: block;
-  margin-left: 70px;
+  margin-left: 90px;
 }
 
 .footer-bottom a {
