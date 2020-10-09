@@ -150,3 +150,19 @@ body {
   text-decoration: none;
   color: #08c;
 }
+
+@media (min-width:1440) {
+  body {
+    background-image: url("images/apple-back.jpg");
+    background-repeat: no-repeat;
+    background-size: 1498px 1166px;
+    background-position: 0 -700px;
+    overflow-x: hidden;
+  }
+  .footer-image-a img,
+  .footer-image-b img,
+  .footer-image-c img,
+  .footer-image-d img {
+    width: 374.5px;
+}
+}
