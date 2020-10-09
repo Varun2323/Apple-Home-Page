@@ -1,10 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
   background-image: url("images/apple-back.jpg");
   background-repeat: no-repeat;
-  background-size: 1400px 1166px;
-  background-position: center -700px;
+  background-size: 1348px 1166px;
+  background-position: 0 -700px;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
@@ -141,3 +142,12 @@ body {
   text-decoration: none;
   color: #08c;
 }
+
+@media (min-width: 300px) and (max-width: 1200px) {
+  body {
+    width: 1348px;
+  }
+}
+
+
+
