@@ -3,14 +3,16 @@ body {
   padding: 0;
   background-image: url("images/apple-back.jpg");
   background-repeat: no-repeat;
-  background-size: 1400px 1166px;
-  background-position: 0 -700px;
+  background-size: 100%;
+  background-position: center -120vh;
   overflow-x: hidden;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .nav-flex-container {
   display: flex;
+  justify-content: center;
+  text-align: center;
   list-style: none;
   margin-top: 70px;
 }
@@ -50,7 +52,6 @@ body {
 .nav-flex-container .logo-a {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  margin-left: 150px;
 }
 
 .nav-flex-container .btn-list {
@@ -75,8 +76,7 @@ body {
 
 .paragraph .item-a,
 .paragraph .item-b,
-.paragraph .item-c,
-.bottom-footer-image {
+.paragraph .item-c {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -124,26 +124,23 @@ body {
 }
 
 .bottom-footer-image {
-  display: flex;
-  margin-top: 100px;
+  display: grid;
+  margin-top: 80px;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
-.footer-image-a img,
-.footer-image-b img,
-.footer-image-c img,
-.footer-image-d img {
-  width: 350px;
-  overflow: hidden;
+.one-img {
+  width: 100%;
 }
 
 .left-footer {
   display: block;
-  margin-left: 150px;
+  margin-left: 120px;
 }
 
 .right-footer {
   display: block;
-  margin-left: 100px;
+  margin-left: 110px;
 }
 
 .footer-bottom a {
@@ -151,18 +148,5 @@ body {
   color: #08c;
 }
 
-@media (min-width:1440) {
-  body {
-    background-image: url("images/apple-back.jpg");
-    background-repeat: no-repeat;
-    background-size: 1498px 1166px;
-    background-position: 0 -700px;
-    overflow-x: hidden;
-  }
-  .footer-image-a img,
-  .footer-image-b img,
-  .footer-image-c img,
-  .footer-image-d img {
-    width: 374.5px;
-}
-}
+ 
+  
