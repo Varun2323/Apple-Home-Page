@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/apple-back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center -120vh;
+  overflow-x: hidden;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.nav-flex-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  margin-top: 70px;
+}
+
+.nav-flex-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-flex-container li {
+  display: block;
+  border: 1px solid grey;
+  width: 100px;
+  height: 28px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(#443e3e, #ccccdb);
+}
+
+.nav-flex-container li :hover {
+  background-image: linear-gradient(darkgrey, black);
+}
+
+.nav-flex-container li span {
+  display: block;
+  font-size: 13px;
+  padding-top: 4px;
+  width: 100px;
+  height: 25px;
+}
+
+.apple-nav {
+  height: 20px;
+  width: 20px;
+}
+
+.nav-flex-container .logo-a {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.nav-flex-container .btn-list {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 150px;
+}
+
+.nav-btn {
+  width: 110px;
+  margin-top: 2px;
+  border-radius: 6px;
+  background-image: linear-gradient(#443e3e, #ccccdb);
+}
+
+.nav-btn > .search-logo {
+  display: block;
+  color: white;
+  width: 20px;
+  font-size: 16px;
+}
+
+.paragraph .item-a,
+.paragraph .item-b,
+.paragraph .item-c {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.footer-bottom p {
+  color: gray;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.paragraph .item-a p {
+  font-size: 50px;
+  color: white;
+  font-weight: normal;
+}
+
+.paragraph .item-b p {
+  font-size: 25px;
+  color: white;
+  line-height: 35px;
+  margin-top: -40px;
+}
+
+.paragraph .item-c p {
+  font-size: 21px;
+  color: white;
+  margin-top: 10px;
+}
+
+.video-icon {
+  color: white;
+  height: 35px;
+  width: 35px;
+  vertical-align: middle;
+}
+
+.bottom-footer-image {
+  display: grid;
+  margin-top: 80px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.one-img {
+  width: 100%;
+}
+
+.left-footer {
+  display: block;
+  margin-left: 120px;
+}
+
+.right-footer {
+  display: block;
+  margin-left: 110px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #08c;
+}
